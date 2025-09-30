@@ -1,0 +1,21 @@
+map é um par de key -> value onde o Key deve ser um valor único. 
+
+map<string, float>
+fruits[KeyValue] = Value;
+para fazer uma atribuição fruits.at("apple") = 1.11, o key já deve existir. 
+
+for (pair<string, float> fruit : fruits){
+            // key                // value
+    cout << fruit.first << " " << fruit.second <<
+}
+
+também é possível inserir com o make_pair sem necessidade de especificar os tipos 
+
+fruits.insert(make_pair("banana", 1.5)) 
+assim como os parenteses: fruits.insert({"banana", 1.5})
+
+o insert não irá atualizar o valor novo. 
+
+for (auto it = fruits.begin(); it != fruits.end; it++){
+    cout << it->first << " " << it->second << endl;
+}

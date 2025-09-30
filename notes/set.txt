@@ -1,0 +1,17 @@
+Set no c++ e um conjunto d eelemtnso únicos (não se pode repetir elementos)/ 
+- EXistem dois tipos, ordenado por inserção e por sort. No c++ o padrão é ordenar por sorting. 
+- Para chamarmos um conjunto, basta incluí-los na biblioteca e chamar set ou unordered_set. 
+
+set<char> charSet;
+char.insert(value);
+char.erase(value);
+char.count(value);
+
+para iterar um set, é importante notar que ele não necessariamente será um inteiro. 
+                                        
+for (auto it = charSet.Begin(); it != charSet.end(); it++ ){
+    cout << *it << " ";
+}
+
+unordered_set não é ordenado por inserção nem por sort. Utiliza hash table
+multi_set é um conjunto que será ordenado mas que permite valores repetidos 
