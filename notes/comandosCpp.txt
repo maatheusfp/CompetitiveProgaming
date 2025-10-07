@@ -1,1 +1,1 @@
-g++ -std=c++17 distinctNumbers.cpp -o main && time ./main < distinctNumbers.txt
+g++ -std=c++17 incognito.cpp -o main && time ./main < incognito.txt
