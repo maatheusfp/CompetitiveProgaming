@@ -1,1 +1,1 @@
-g++ -std=c++17 DZYLovesChemistry.cpp -o main && time ./main < DZYLovesChemistry.txt
+g++ -std=c++17 greetings.cpp -o main && time ./main < greetings.txt
