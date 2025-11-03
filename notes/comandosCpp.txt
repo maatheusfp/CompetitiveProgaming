@@ -1,1 +1,1 @@
-g++ -std=c++17 buildingAnAquarium.cpp -o main && time ./main < buildingAnAquarium.txt
+g++ -std=c++17 drivingRange.cpp -o main && time ./main < drivingRange.txt
