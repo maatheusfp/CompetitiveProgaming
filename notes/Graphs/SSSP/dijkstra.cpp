@@ -15,8 +15,6 @@ void dijkstra(int s) {
     
     dist[s] = 0;
     
-    // Priority queue: (distância, vértice)
-    // greater<ii> faz o menor ficar no topo
     priority_queue<ii, vector<ii>, greater<ii>> pq;
     pq.push(ii(0, s));
     

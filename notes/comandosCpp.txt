@@ -1,1 +1,1 @@
-g++ -std=c++17 buildingTeams.cpp -o main && time ./main < buildingTeams.txt
+g++ -std=c++17 PoliceChase.cpp -o main && time ./main < PoliceChase.txt
